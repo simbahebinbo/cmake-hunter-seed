@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
 
+# 设置 CMake 政策
+cmake_policy(SET CMP0167 NEW)
+cmake_policy(SET CMP0144 NEW)
+
 find_program(CCACHE_FOUND ccache)
 if (CCACHE_FOUND)
     set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
