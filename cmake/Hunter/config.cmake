@@ -5,9 +5,6 @@ hunter_config(
         SHA1 fd0d26a7d5eadf454896942124544120e3b7a38f
         CMAKE_ARGS
         CMAKE_POSITION_INDEPENDENT_CODE=ON
-        Boost_USE_STATIC_LIBS=ON   # 使用静态库
-        Boost_USE_MULTITHREADED=ON
-        Boost_USE_STATIC_RUNTIME=OFF
 )
 
 hunter_config(
